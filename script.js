@@ -1,6 +1,6 @@
 //your JS code here. If required.
  const counterElement = document.getElementById('counter');
-    const incrementButton = document.getElementById('incrementButton');
+    const incrementBtn = document.getElementById('incrementBtn');
 
     // Initialize counter value
     let counterValue = 0;
@@ -11,7 +11,7 @@
     }
 
     // Event listener for the button click
-    incrementButton.addEventListener('click', function () {
+    incrementBtn.addEventListener('click', function () {
       // Increment the counter value
       counterValue++;
 
